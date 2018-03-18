@@ -1,0 +1,19 @@
+/*Factorial de un numero*/
+#include <stdio.h>
+#include <conio.h>
+
+main(){
+	int num;
+	int r = 1;
+	
+	printf("Dame un numero: ");
+	scanf ("%d",&num);
+	
+	for (int i = 1; i <= num; i++){
+		r = r * i;	
+	}
+	
+	printf("El factorial del numero es: %d",r);
+		
+	getch();
+}
